@@ -3,5 +3,3 @@
 - name: install {{ confluent_rpm }}
   yum: name={{ confluent_rpm }} state=present
 
-- name: install {{ schema_registry_rpm }}
-  yum: name={{ schema_registry_rpm }} state=present

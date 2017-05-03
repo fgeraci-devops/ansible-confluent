@@ -1,4 +1,0 @@
----
-
-- name: bounce schema-registry
-  service: name=schema-registry state=restarted
